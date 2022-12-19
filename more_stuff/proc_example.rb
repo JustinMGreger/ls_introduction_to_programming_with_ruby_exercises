@@ -11,7 +11,6 @@ end
 talk.call
 
 Procs can also take arguments if specified.
-
 =end
 
 # proc_example.rb
