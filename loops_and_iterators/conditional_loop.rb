@@ -23,5 +23,4 @@ ruby conditional_loop.rb
 10
 
 You can see from the above that break was not executed during the first 4 iterations through the loop, but on the 5th iteration, the if statement evaluated as true and so the code within the if statement was executed, which is just break, and execution exited the loop.
-
 =end
