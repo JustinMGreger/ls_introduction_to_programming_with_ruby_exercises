@@ -26,7 +26,6 @@ p "After no_mutate method: #{a}"
 
 You'll notice that we have the same output before and after the method invocation, so we know that a was not modified in any way. This is because the last method does not mutate the calling object, array, on line 5, so the array passed to no_mutate is not mutated.
 How do you know which methods mutate arguments and which ones don't? Unfortunately, you have to memorize it by looking at the documentation or through repetition.
-
 Now that you know what a method is and how it works, we can discuss the difference between puts and return. You haven't really been properly introduced to return but that's because in Ruby, every method returns the evaluated result of the last line that is executed.
 Let's use our mutate.rb file to demonstrate this.
 =end
